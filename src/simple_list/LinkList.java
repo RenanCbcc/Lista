@@ -21,26 +21,29 @@ public class LinkList<O> {
 	}
 
 	// -------------------------------------------------------------------
-	public void insertFirst(O person) { // Inserts at start of list.
-		Link<O> newLink = new Link<O>(person); // Make a new link.
+	public void insertFirst(O object) { // Inserts at start of list.
+		Link<O> newlink = new Link<O>(object); // Make a new link.
 		if (!isEmpty()) { // Verify if the list is empty
-			newLink.setNext(first); // newLink --> old first
+			newlink.setNext(first); // newLink --> old first
 		}
-		first = newLink; // First --> newLink
+		first = newlink; // First --> newLink
 	}
 
 	// -------------------------------------------------------------------
-	public Link<O> deleteFirst() { // Delete the first item
+	public O deleteFirst() { // Delete the first item
 		if (isEmpty()) {
 			System.out.println("The list is currently empty.");
 		}
-		Link<O> temp = first; // Save reference to link.
+		O temp = first.getData(); // Save reference to link.
 		first = first.getNext(); // Delete it; first --> old nest.
 		return temp; // Return delete link.
 	}
 
 	// -------------------------------------------------------------------
 	public void displayList() {
+		if (isEmpty()) {
+			System.out.println("The list is currently empty.");
+		}
 		System.out.println("List [first --> last]: ");
 		Link<O> current = first; // start at the beginning of the list.
 		while (current != null) {
