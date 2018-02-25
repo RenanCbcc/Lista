@@ -7,31 +7,31 @@ in many cases in which you use an array, unless you need
 frequent random access to individual items using an index.
 
 ### Links in a list.
-![GitHub Logo](doc/Figure 1_0.png)
+![GitHub Logo](doc/Figure_1_0.png)
 
 ### Uml.
 ![GitHub Logo](doc/dll.jpg)
 
 ### Methods:
-* 'insertFirst'
-* 'deleteFirst'
-* 'find'
-* 'delete'
-* 'insertAfter'
-* 'displayList'
-* 'others'
+* `insertFirst`
+* `deleteFirst`
+* `find`
+* `delete`
+* `insertAfter`
+* `displayList`
+* `others`
 
-### The 'insertFirst()' Method
-![GitHub Logo](doc/Figure 1_1.png)
+### The `insertFirst()` Method
+![GitHub Logo](doc/Figure_1_1.png)
 
-### The 'deleteFirst()' Method
-![GitHub Logo](doc/Figure 1_2.png)
+### The `deleteFirst()` Method
+![GitHub Logo](doc/Figure_1_2.png)
 
-### The 'displayList()' Method
-![GitHub Logo](doc/Figure 1_3.png)
+### The `displayList()` Method
+![GitHub Logo](doc/Figure_1_3.png)
 
-### The 'delete()' Method
-![GitHub Logo](doc/Figure 1_4.png)
+### The `delete()` Method
+![GitHub Logo](doc/Figure_1_4.png)
 
 ### Linked-List Efficiency
  Insertion and deletion at the beginning of a linked list are very fast. They involve
